@@ -98,7 +98,7 @@ export default function Pricing() {
               </div>
 
               <a
-                href="#"
+                href="/"
                 className={`block text-center py-2.5 rounded-xl text-sm font-semibold mb-6 transition-all ${plan.ctaStyle}`}
               >
                 {plan.cta}

@@ -36,7 +36,7 @@ export default function Footer() {
               <ul className="space-y-2.5">
                 {col.links.map(link => (
                   <li key={link}>
-                    <a href="#" className="text-sm hover:text-slate-200 transition-colors">{link}</a>
+                    <a href="/" className="text-sm hover:text-slate-200 transition-colors">{link}</a>
                   </li>
                 ))}
               </ul>
@@ -47,9 +47,9 @@ export default function Footer() {
         <div className="border-t border-slate-800 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-600">© 2025 Taskflow, Inc. All rights reserved.</p>
           <div className="flex gap-6 text-xs">
-            <a href="#" className="hover:text-slate-300 transition-colors">Privacy</a>
-            <a href="#" className="hover:text-slate-300 transition-colors">Terms</a>
-            <a href="#" className="hover:text-slate-300 transition-colors">Cookie Policy</a>
+            <a href="/" className="hover:text-slate-300 transition-colors">Privacy</a>
+            <a href="/" className="hover:text-slate-300 transition-colors">Terms</a>
+            <a href="/" className="hover:text-slate-300 transition-colors">Cookie Policy</a>
           </div>
         </div>
       </div>
