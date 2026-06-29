@@ -3,7 +3,7 @@ const projects = [
     title: 'Taskflow — SaaS Landing Page',
     desc: 'A conversion-focused landing page for a project management SaaS. Built with React and Tailwind from scratch — hero, features, pricing toggle, and footer. Lighthouse score 96.',
     tags: ['React', 'Tailwind CSS', 'Vercel'],
-    link: 'https://taskflow-landing.vercel.app',
+    link: 'https://https://trackr-landing.vercel.app/',
     accent: 'bg-brand-50 text-brand-600',
     preview: (
       <div className="p-4 h-full flex flex-col gap-2 bg-white w-full">
